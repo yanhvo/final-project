@@ -1,0 +1,17 @@
+header{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f7f7f7;
+    padding: 0 20px;
+    position: sticky;
+    top: 0px;
+    z-index: 10;
+    .text{
+        color: #ff981d;
+        &:hover{
+            color: gray;
+        }
+    }
+}

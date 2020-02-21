@@ -1,0 +1,23 @@
+.pokemon{
+    position: relative;
+    top: 0;
+    margin: 0 auto;
+    padding: 100px;
+    width: 100%;
+    max-width: 960px;
+    background: #FFF;
+    height: 100vh;
+    text-align: center;
+
+    &_info{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        padding: 20px;
+        line-height: 1.4;
+    }
+    &_image{
+        width: 40%;
+    }
+}

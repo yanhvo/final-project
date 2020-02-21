@@ -1,0 +1,35 @@
+:root {
+    font-size: 8px;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'RodchenkoCTT', arial;
+    background-color: #f7f7f7;
+    margin: 0;
+}
+
+h1{
+    font-family: 'Baloo Bhai', cursive;
+    font-size: 60px;
+    margin: 0;
+}
+
+h2 {
+  font-size: 40px;
+  margin: 0px;
+}
+
+span{
+    font-size: 25px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
